@@ -9,7 +9,7 @@
 
 <ul>
 @foreach($history as $elem)
-<li>{{ $elem ['roundtime']}}</li>
+<li><a href='/details?id={{ $elem['id']}}'>{{$elem['roundtime']}}</a></li>
 @endforeach
 </ul>
 
