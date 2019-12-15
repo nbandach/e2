@@ -8,12 +8,4 @@ class Controller
     {
         $this->app = $app;
     }
-
-    public function history () {
-        return $this->app->view('history');
-    }
-
-    public function details () {
-        return $this->app->view('details');;
-    }
 }
